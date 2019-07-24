@@ -1,3 +1,3 @@
-# Repo
+# Repository
 
-Easy to use repository utilities.
+Easy to use utilities for repository management.
