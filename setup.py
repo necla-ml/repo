@@ -15,10 +15,10 @@ setup(
     entry_points = {
         'console_scripts': [ 'repo = repo.__main__:cli' ]
     },
-    install_requires = [
-        'click',
+    #install_requires = [
+    #    'click',
         #'make',
-    ],
+    #],
     packages = find_packages(),
     #data_files = [ ('repo', ['Makefile']) ],
     include_package_data=True,

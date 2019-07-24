@@ -13,6 +13,7 @@ requirements:
 
     run:
         - python
+        - click
         - make
 
 build:
