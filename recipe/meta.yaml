@@ -3,8 +3,9 @@ package:
     version: 0.0.1
 
 source:
-    git_rev: 
-    git_url: https://github.com/necla-ml/repo.git
+    path: ..
+    #git_rev: 
+    #git_url: https://github.com/necla-ml/repo.git
 
 requirements:
     build:
@@ -22,8 +23,12 @@ build:
         - repo = repo.__main__:cli
 
 test:
+    files:
+        - Makefile
     imports:
-        -
+        - click
+    commands:
+        - repo
 
 about:
     home: https://github.com/necla-ml/repo
